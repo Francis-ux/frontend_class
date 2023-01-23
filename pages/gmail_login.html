@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Gmail Login</title>
+    <style>
+        .text-primary {
+            color: blue;
+        }
+
+        .text-danger {
+            color: red;
+        }
+
+        .text-success {
+            color: green;
+        }
+
+        .text-warning {
+            color: yellow;
+        }
+
+        .text-light {
+            color: gray;
+        }
+
+        #main-container {
+            width: 100%;
+            height: fit-content;
+            border: 0px solid gray;
+
+        }
+
+        #gmail-container {
+            width: 35%;
+            height: 550px;
+            border: 1px solid black;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        #top-empty-container {
+            width: 100%;
+            height: 60px;
+            border: 1px solid gray;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        #logo-main-container {
+            width: 100%;
+            height: 50px;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+        }
+
+        #logo-container {
+            width: 20%;
+            height: 50px;
+            border: 1px solid green;
+            padding-left: 40px;
+            padding-right: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo-container div {
+            font-family: 'Arial';
+            font-size: 30px;
+        }
+
+        #description-container {
+            width: 100%;
+            height: fit-content;
+            border: 1px solid skyblue;
+            display: flex;
+            justify-content: center;
+            font-family: 'Arial';
+        }
+
+        #sign-in-text {
+            font-size: 25px;
+        }
+
+        #input-main-container {
+            width: 91%;
+            height: 60px;
+            border: 1px solid red;
+        }
+
+        .section-2-padding {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #input-main-container #input-container #input {
+            width: 98%;
+            height: 54px;
+            font-family: 'Arial';
+            font-weight: 500
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="gmail-container">
+            <div id="top-empty-container"></div>
+            <div id="logo-main-container">
+                <div id="logo-container">
+                    <div class="text-primary">G</div>
+                    <div class="text-danger">o</div>
+                    <div class="text-warning">o</div>
+                    <div class="text-primary">g</div>
+                    <div class="text-success">l</div>
+                    <div class="text-danger">e</div>
+                </div>
+            </div>
+            <div id="description-container">
+                <div>
+                    <p>
+                        <center><span id="sign-in-text">Sign in</span></center>
+                    </p>
+                    <p>Use your Google Account</p>
+                </div>
+            </div>
+            <div id="input-main-container" class="section-2-padding">
+                <div id="input-container">
+                    <input type="text" id="input" placeholder="Email or Phone">
+                </div>
+                <div>
+                    <a href="">Forgot Email?</a>
+                </div>
+            </div>
+            <div id="learn-more-container"></div>
+            <div id="create-account-container"></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
