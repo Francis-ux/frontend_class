@@ -1,0 +1,147 @@
+* {
+    font-family: 'Arial';
+}
+
+.text-primary {
+    color: #1A73E8;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-warning {
+    color: yellow;
+}
+
+.text-light {
+    color: gray;
+}
+
+#main-container {
+    width: 100%;
+    height: fit-content;
+    border: 0px solid gray;
+
+}
+
+#gmail-container {
+    width: 35%;
+    height: 550px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#top-empty-container {
+    width: 100%;
+    height: 60px;
+    border: 0px solid gray;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#logo-main-container {
+    width: 100%;
+    height: 50px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-container {
+    width: 20%;
+    height: 50px;
+    border: 0px solid green;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-container div {
+    font-size: 30px;
+}
+
+#description-container {
+    width: 100%;
+    height: fit-content;
+    border: 0px solid skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+#sign-in-text {
+    font-size: 25px;
+}
+
+#input-main-container {
+    width: 91%;
+    height: fit-content;
+    border: 0px solid red;
+}
+
+.section-2-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#input-main-container #input-container #input {
+    width: 98%;
+    height: 54px;
+    font-weight: 500
+}
+
+#forgot-email-container {
+    margin-top: 7px;
+}
+
+#forgot-email-container a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#learn-more-container {
+    width: 91%;
+    height: fit-content;
+    border: 0px solid gray;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+#learn-more-container a {
+    text-decoration: none;
+}
+
+#create-account-container {
+    width: 91%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+#create-account-container div {
+    width: 25%;
+    height: fit-content;
+    border: 0px solid gray;
+}
+
+#create-account a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#next-btn button {
+    width: 100%;
+    height: 40px;
+    background-color: #1A73E8;
+    border: 1px solid #1A73E8;
+    border-radius: 4px;
+    color: white
+}

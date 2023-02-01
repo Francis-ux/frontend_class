@@ -1,0 +1,9 @@
+#text-shadow {
+   text-shadow: 2px 2px 2px green;
+}
+
+a {
+   color: blue;
+   text-decoration: none;
+   font-family: 'Arial';
+}
