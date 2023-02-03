@@ -1,0 +1,36 @@
+body {
+   margin: 0;
+}
+
+#main-container {
+   width: 78.9%;
+   height: 60px;
+   border: 1px solid black;
+   padding-left: 150px;
+   padding-right: 150px;
+   display: flex;
+}
+
+#logo-container {
+   width: 15%;
+   height: 60px;
+   border: 1px solid black;
+}
+
+#search-container {
+   width: 60%;
+   height: 60px;
+   border: 1px solid black;
+}
+
+#free-trial-container {
+   width: 15%;
+   height: 60px;
+   border: 1px solid black;
+}
+
+#sign-in-container {
+   width: 10%;
+   height: 60px;
+   border: 1px solid black;
+}
