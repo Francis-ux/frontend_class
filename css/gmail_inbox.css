@@ -68,30 +68,35 @@
    font-family: 'Arial';
    font-size: 23px;
 }
-#search-icon{
+
+#search-icon {
    width: 10%;
-   height:60px;
-   border:0px solid black;
+   height: 60px;
+   border: 0px solid black;
    border-radius: 10px 0px 0px 10px;
 }
-#search-input{
+
+#search-input {
    width: 80%;
-   height:60px;
-   border:0px solid black;
+   height: 60px;
+   border: 0px solid black;
 }
-#last-icon{
+
+#last-icon {
    width: 10%;
-   height:60px;
-   border:0px solid black;
+   height: 60px;
+   border: 0px solid black;
    border-radius: 0px 10px 10px 0px;
 }
-#search{
-   width:99%;
+
+#search {
+   width: 99%;
    height: 54px
 }
-#search{
+
+#search {
    font-family: 'Arial';
-   font-size:16px;
+   font-size: 16px;
    outline: none;
    border: 0px solid black;
    background-color: #EAF1FB;
