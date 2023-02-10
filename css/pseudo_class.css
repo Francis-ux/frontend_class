@@ -1,0 +1,9 @@
+#heading1 {
+   color: blue;
+}
+
+#heading1:hover {
+   color: red;
+   font-size: 60px;
+   font-family: 'Arial';
+}
