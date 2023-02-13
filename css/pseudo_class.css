@@ -7,3 +7,15 @@
    font-size: 60px;
    font-family: 'Arial';
 }
+
+.dropdown {
+   width: 20%;
+   height: 400px;
+   background-color: black;
+   display: none;
+}
+
+#message-container:hover .dropdown {
+   display: block;
+   margin-top:200px;
+}
