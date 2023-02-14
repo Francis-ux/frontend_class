@@ -1,21 +1,20 @@
-#heading1 {
-   color: blue;
+#container {
+   display: flex;
 }
 
-#heading1:hover {
+#container div:first-child {
+   width: 50%;
+   height: 200px;
+   border: 1px solid gray;
+}
+
+#container div:last-child {
+   width: 50%;
+   height: 200px;
+   border: 1px solid gray;
+}
+
+#container div:first-child::first-letter {
+   font-size: 200px;
    color: red;
-   font-size: 60px;
-   font-family: 'Arial';
-}
-
-.dropdown {
-   width: 20%;
-   height: 400px;
-   background-color: black;
-   display: none;
-}
-
-#message-container:hover .dropdown {
-   display: block;
-   margin-top:200px;
 }
