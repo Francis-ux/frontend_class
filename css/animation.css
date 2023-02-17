@@ -14,9 +14,28 @@
    }
 
    to {
-     width:20%;
-     height:100px;
-     overflow-y: scroll;
-     background-color: pink;
+      width: 20%;
+      height: 100px;
+      overflow-y: scroll;
+      background-color: pink;
+   }
+}
+
+#box {
+   width: 50%;
+   height: 40px;
+   background-color: red;
+   animation-name: move;
+   animation-duration: 5s;
+   animation-iteration-count: 2;
+}
+
+@keyframes move {
+   from {
+      margin-left: 400px;
+   }
+
+   to {
+      margin-top: 400px;
    }
 }
