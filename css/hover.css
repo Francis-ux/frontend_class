@@ -1,0 +1,23 @@
+ol li a {
+   text-decoration: none;
+   font-family: 'Arial';
+   color: white;
+}
+
+li {
+   margin: 20px;
+}
+#bar{
+   border:1px solid gray;
+   position: absolute;
+}
+#content {
+   background-color: black;
+   width: fit-content;
+   height: fit-content;
+   display: none;
+}
+
+#bar:hover #content {
+   display: block;
+}
