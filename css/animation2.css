@@ -1,0 +1,40 @@
+.main-container {
+   display: flex;
+   margin: 100px;
+}
+
+.container {
+   width: 200px;
+   height: 200px;
+   border: 1px solid gray;
+   background-color: red;
+   color: white;
+}
+
+.container2 {
+   width: 200px;
+   height: 200px;
+   border: 1px solid gray;
+   background-color: blue;
+}
+
+.container3 {
+   width: 200px;
+   height: 200px;
+   border: 1px solid gray;
+   background-color: green;
+   /* transition: 2s ease-out; */
+}
+
+.container:hover {
+   transform: scale(1.1);
+}
+
+.container2:hover {
+   transform: scale(1.1);
+}
+
+.container3:hover {
+   box-shadow: 5px 5px 10px 0px gray;
+   transform: scale(4.4);
+}
