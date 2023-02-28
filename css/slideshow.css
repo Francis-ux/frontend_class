@@ -1,0 +1,18 @@
+.container {
+   width: 100%;
+   height: 400px;
+   background-image: url('../images/background.jpg');
+   animation-name: slide;
+   animation-duration: 15s;
+
+}
+
+@keyframes slide {
+   30% {
+      background-image: url('../images/cutimage.png');
+   }
+
+   50% {
+      background-image: url('../images/1\ IWYXLblwCSzKTP-S2P_d8w.jpeg');
+   }
+}
