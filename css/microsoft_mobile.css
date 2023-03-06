@@ -1,0 +1,17 @@
+@media only screen and (max-width:414px) {
+   .banner-left {
+      display: none;
+   }
+
+   .banner {
+      height: fit-content;
+   }
+
+   .banner-right {
+      height: fit-content;
+   }
+
+   .banner-right img {
+      width: 100%;
+   }
+}

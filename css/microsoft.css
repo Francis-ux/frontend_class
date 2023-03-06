@@ -1,0 +1,30 @@
+.nav {
+   width: 90.5%;
+   border: 1px solid gray;
+   justify-content: space-between;
+}
+
+.nav-left {
+   width: 40%;
+}
+
+.nav-right {
+   width: 30%;
+}
+
+.banner {
+   height: 500px;
+   background-color: #B2D7F9;
+}
+
+.banner-right img {
+   width: 80%;
+}
+
+.logo-side {
+   width: 25%;
+}
+
+.after-logo {
+   width: 20%;
+}
