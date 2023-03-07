@@ -28,3 +28,12 @@
 .after-logo {
    width: 20%;
 }
+.nav-left *{
+   font-family: 'Arial';
+   font-size:12px;
+   color:black;
+   text-decoration: none;
+}
+.logo-side img{
+   width: 80%;
+}

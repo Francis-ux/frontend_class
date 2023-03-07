@@ -1,5 +1,5 @@
 .nav-h {
-   height: 60px;
+   height: 45px;
 }
 
 .border {
@@ -41,4 +41,20 @@
 
 .justify-content-around {
    justify-content: space-around;
+}
+
+.justify-content-center {
+   justify-content: center;
+}
+
+.align-items-center {
+   align-items: center;
+}
+
+.nav-hover:hover {
+   border-bottom: 3px solid gray;
+   color: red;
+}
+.img-fluid{
+   width:100%;
 }
