@@ -13,7 +13,8 @@
 }
 
 .banner {
-   height: 500px;
+   /* height: 500px; */
+   height: fit-content;
    background-color: #B2D7F9;
 }
 
@@ -28,12 +29,32 @@
 .after-logo {
    width: 20%;
 }
-.nav-left *{
+
+.nav-left * {
    font-family: 'Arial';
-   font-size:12px;
-   color:black;
+   font-size: 12px;
+   color: black;
    text-decoration: none;
 }
-.logo-side img{
+
+.logo-side img {
    width: 80%;
+}
+
+.nav-right * {
+   font-family: 'Arial';
+   font-size: 12px;
+   color: black;
+   text-decoration: none;
+}
+
+#all_microsoft,
+#search,
+#cart,
+#sign-in {
+   width: 20%;
+   border: 0px solid gray;
+}
+#mobile-nav{
+   display: none;
 }
