@@ -22,6 +22,10 @@
    width: 80%;
 }
 
+.banner-left * {
+   font-family: 'Arial';
+}
+
 .logo-side {
    width: 25%;
 }
@@ -55,6 +59,34 @@
    width: 20%;
    border: 0px solid gray;
 }
-#mobile-nav{
+
+#mobile-nav {
    display: none;
+}
+
+#one_person_btn {
+   background-color: #005CA5;
+   width: fit-content;
+   height: fit-content;
+   font-size: 15px;
+   color: white;
+   padding: 9px;
+   border: 1px solid #005CA5;
+}
+
+#six_people_btn {
+   /* background-color: #005CA5; */
+   width: fit-content;
+   height: fit-content;
+   font-size: 15px;
+   color: white;
+   padding: 9px;
+   /* border: 1px solid #005CA5; */
+   margin-left: 30px;
+   color: #0067C6;
+}
+
+#six_people_btn * {
+   color: #0067C6;
+
 }
